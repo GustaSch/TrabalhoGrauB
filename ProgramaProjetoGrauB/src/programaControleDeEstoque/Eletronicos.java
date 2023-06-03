@@ -2,11 +2,20 @@ package programaControleDeEstoque;
 
 public class Eletronicos extends Item {
     
+    private String marca;
     
-    
-    public Eletronicos(String descricao, float valor, int codigo) {
+    public Eletronicos(String descricao, float valor, int codigo, String marca) {
         super(descricao, valor, codigo);
-        //TODO Auto-generated constructor stub
+        this.marca = marca;
     }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    
 }
