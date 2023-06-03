@@ -1,5 +1,5 @@
 package programaControleDeEstoque;
 
-public class Eletrodomesticos extends Produtos{
+public class Eletrodomesticos extends Item{
 
 }

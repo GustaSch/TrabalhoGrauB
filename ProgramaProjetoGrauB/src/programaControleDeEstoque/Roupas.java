@@ -1,5 +1,5 @@
 package programaControleDeEstoque;
 
-public class Roupas extends Produtos{
+public class Roupas extends Item{
 
 }
