@@ -17,5 +17,12 @@ public class Eletronicos extends Item {
         this.marca = marca;
     }
 
+    @Override
+    public String toString() {
+        return "Eletronicos /n" +
+                "marca = " + marca;
+    }
+
+    
     
 }

@@ -24,5 +24,12 @@ public class Roupas extends Item{
         this.marca = marca;
     }
 
+    @Override
+    public String toString() {
+        return "Roupas /n" +
+                "tamanho = " + tamanho + "/n" +
+                "marca = " + marca;
+    }
+
     
 }

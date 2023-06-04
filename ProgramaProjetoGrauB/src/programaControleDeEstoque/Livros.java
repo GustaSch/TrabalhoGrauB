@@ -16,5 +16,11 @@ public class Livros extends Item{
         this.autor = autor;
     }
 
+    @Override
+    public String toString() {
+        return "Livros /n" +
+                "autor = " + autor;
+    }
+
     
 }

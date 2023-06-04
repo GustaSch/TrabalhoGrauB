@@ -2,6 +2,7 @@ package programaControleDeEstoque;
 
 
 public class Item {
+    
     private String descricao;
     private float valor;
     private int codigo;
@@ -34,6 +35,14 @@ public class Item {
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
+    }
+
+    @Override
+    public String toString() {
+        return "Item /n" +
+                "descricao = " + descricao +  "/n" + 
+                "valor = " + valor + "/n" +
+                "codigo=" + codigo;
     }
 
     

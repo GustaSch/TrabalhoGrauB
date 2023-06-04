@@ -26,6 +26,13 @@ public class Eletrodomesticos extends Item{
         this.marca = marca;
     }
 
+    @Override
+    public String toString() {
+        return "Eletrodomesticos: /n" +
+                "voltagem =" + voltagem + "/n" +
+                "marca =" + marca;
+    }
+
     
     
 }
