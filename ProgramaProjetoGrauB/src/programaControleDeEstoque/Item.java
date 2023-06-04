@@ -1,6 +1,5 @@
 package programaControleDeEstoque;
 
-import java.lang.reflect.Constructor;
 
 public class Item {
     private String descricao;
