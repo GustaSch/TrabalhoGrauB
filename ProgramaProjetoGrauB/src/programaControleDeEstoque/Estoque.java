@@ -16,4 +16,10 @@ public class Estoque {
     public void setEstoque(ArrayList<Item> estoque) {
         this.estoque = estoque;
     }
+
+    @Override
+    public String toString() {
+        return "Estoque " +
+                "estoque = " + estoque;
+    }
 }
