@@ -19,7 +19,7 @@ public class Eletronicos extends Item {
 
     @Override
     public String toString() {
-        return "Eletronicos /n" +
+        return "Eletronicos: \n" +
                 "marca = " + marca;
     }
 

@@ -19,7 +19,7 @@ public class Estoque {
 
     @Override
     public String toString() {
-        return "Estoque " +
+        return "Estoque: \n" +
                 "estoque = " + estoque;
     }
 }

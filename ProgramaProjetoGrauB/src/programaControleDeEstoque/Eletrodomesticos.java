@@ -28,8 +28,8 @@ public class Eletrodomesticos extends Item{
 
     @Override
     public String toString() {
-        return "Eletrodomesticos: /n" +
-                "voltagem =" + voltagem + "/n" +
+        return "Eletrodomesticos: \n" +
+                "voltagem =" + voltagem + "\n" +
                 "marca =" + marca;
     }
 

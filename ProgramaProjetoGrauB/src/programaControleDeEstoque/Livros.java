@@ -18,7 +18,7 @@ public class Livros extends Item{
 
     @Override
     public String toString() {
-        return "Livros /n" +
+        return "Livros: \n" +
                 "autor = " + autor;
     }
 

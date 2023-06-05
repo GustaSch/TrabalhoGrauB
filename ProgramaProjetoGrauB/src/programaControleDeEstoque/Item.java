@@ -39,9 +39,9 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item /n" +
-                "descricao = " + descricao +  "/n" + 
-                "valor = " + valor + "/n" +
+        return "Item: \n" +
+                "descricao = " + descricao +  "\n" +
+                "valor = " + valor + "\n" +
                 "codigo=" + codigo;
     }
 

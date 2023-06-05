@@ -26,8 +26,8 @@ public class Roupas extends Item{
 
     @Override
     public String toString() {
-        return "Roupas /n" +
-                "tamanho = " + tamanho + "/n" +
+        return "Roupas: \n" +
+                "tamanho = " + tamanho + "\n" +
                 "marca = " + marca;
     }
 
