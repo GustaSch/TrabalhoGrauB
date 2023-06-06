@@ -6,11 +6,13 @@ public class Item {
     private String descricao;
     private float valor;
     private int codigo;
+    private int quantidade;
     
-    public Item(String descricao, float valor, int codigo) {
+    public Item(String descricao, float valor, int codigo, int quantidade) {
         this.descricao = descricao;
         this.valor = valor;
         this.codigo = codigo;
+        this.quantidade = quantidade;
     }
 
     public String getDescricao() {
@@ -35,6 +37,14 @@ public class Item {
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 
     @Override
