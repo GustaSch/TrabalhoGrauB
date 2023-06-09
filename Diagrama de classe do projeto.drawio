@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T21:32:09.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mO7dsGPScMCCt_jsA3S6" version="21.3.7" type="device">
+<mxfile host="app.diagrams.net" modified="2023-06-09T21:57:02.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vtRD0RtX9aCyEoMEYM4k" version="21.3.7" type="github">
   <diagram name="Página-1" id="ij_7CsFe-NvirslIhq4F">
     <mxGraphModel dx="1947" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
         <mxCell id="AnNTpFP7tSi3PjS1PI0E-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="AnNTpFP7tSi3PjS1PI0E-1" vertex="1">
           <mxGeometry y="52" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AnNTpFP7tSi3PjS1PI0E-4" value="+ Livro(String descricao, float Valor, int codigo, String autor)&lt;br&gt;+ setAutor(): void&lt;br&gt;+ getAutor(): String&lt;br&gt;+ toString(){..}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-1" vertex="1">
+        <mxCell id="AnNTpFP7tSi3PjS1PI0E-4" value="+ Livro(String nome, double preco, int codigo, int quantidade, String autor)&lt;br&gt;+ setAutor(): void&lt;br&gt;+ getAutor(): String&lt;br&gt;+ toString(){..}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-1" vertex="1">
           <mxGeometry y="60" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="m3YTVxR1ayb_nRXrgsIL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AnNTpFP7tSi3PjS1PI0E-5" target="AnNTpFP7tSi3PjS1PI0E-33" edge="1">
@@ -48,7 +48,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AnNTpFP7tSi3PjS1PI0E-10" value="Eletrodomestico" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="250" width="230" height="190" as="geometry" />
+          <mxGeometry x="360" y="240" width="230" height="210" as="geometry" />
         </mxCell>
         <mxCell id="AnNTpFP7tSi3PjS1PI0E-11" value="- voltagem: int&lt;br&gt;- marca: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-10" vertex="1">
           <mxGeometry y="26" width="230" height="44" as="geometry" />
@@ -56,8 +56,8 @@
         <mxCell id="AnNTpFP7tSi3PjS1PI0E-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="AnNTpFP7tSi3PjS1PI0E-10" vertex="1">
           <mxGeometry y="70" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AnNTpFP7tSi3PjS1PI0E-13" value="+ Livro(String descricao, float Valor, int codigo, int voltagem, String marca)&lt;br&gt;+ setVoltagem(): void&lt;br&gt;+ getVoltagem(): int&lt;br&gt;+ setMarca(): void&lt;br&gt;+ getMarca(): String&lt;br&gt;+ toString(){..}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-10" vertex="1">
-          <mxGeometry y="78" width="230" height="112" as="geometry" />
+        <mxCell id="AnNTpFP7tSi3PjS1PI0E-13" value="+ Livro(String nome, double preco, int codigo, int quantidade, int voltagem, String marca)&lt;br&gt;+ setVoltagem(): void&lt;br&gt;+ getVoltagem(): int&lt;br&gt;+ setMarca(): void&lt;br&gt;+ getMarca(): String&lt;br&gt;+ toString(){..}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-10" vertex="1">
+          <mxGeometry y="78" width="230" height="132" as="geometry" />
         </mxCell>
         <mxCell id="m3YTVxR1ayb_nRXrgsIL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AnNTpFP7tSi3PjS1PI0E-15" target="AnNTpFP7tSi3PjS1PI0E-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -68,7 +68,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AnNTpFP7tSi3PjS1PI0E-15" value="Roupas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="480" width="230" height="210" as="geometry" />
+          <mxGeometry x="360" y="480" width="230" height="220" as="geometry" />
         </mxCell>
         <mxCell id="AnNTpFP7tSi3PjS1PI0E-16" value="- tamanho: String&lt;br&gt;- marca: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-15" vertex="1">
           <mxGeometry y="26" width="230" height="54" as="geometry" />
@@ -76,8 +76,8 @@
         <mxCell id="AnNTpFP7tSi3PjS1PI0E-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="AnNTpFP7tSi3PjS1PI0E-15" vertex="1">
           <mxGeometry y="80" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AnNTpFP7tSi3PjS1PI0E-18" value="+ Livro(String descricao, float Valor, int codigo, String tamanho, String marca)&lt;br&gt;+ setTamanho(): void&lt;br&gt;+ getTamanho(): String&lt;br&gt;+ setMarca(): void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ getMarca(): String&lt;br&gt;+ toString(){..}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-15" vertex="1">
-          <mxGeometry y="88" width="230" height="122" as="geometry" />
+        <mxCell id="AnNTpFP7tSi3PjS1PI0E-18" value="+ Livro(String nome, double preco, int codigo, int quantidade, String tamanho, String marca)&lt;br&gt;+ setTamanho(): void&lt;br&gt;+ getTamanho(): String&lt;br&gt;+ setMarca(): void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ getMarca(): String&lt;br&gt;+ toString(){..}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-15" vertex="1">
+          <mxGeometry y="88" width="230" height="132" as="geometry" />
         </mxCell>
         <mxCell id="m3YTVxR1ayb_nRXrgsIL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AnNTpFP7tSi3PjS1PI0E-20" target="AnNTpFP7tSi3PjS1PI0E-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -97,7 +97,7 @@
         <mxCell id="AnNTpFP7tSi3PjS1PI0E-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="AnNTpFP7tSi3PjS1PI0E-20" vertex="1">
           <mxGeometry y="60" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AnNTpFP7tSi3PjS1PI0E-23" value="+ Livro(String descricao, float Valor, int codigo, String marca)&lt;br&gt;+ setMarca(): void&lt;br&gt;+ getMarca(): String&lt;br&gt;+ toString(){..}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-20" vertex="1">
+        <mxCell id="AnNTpFP7tSi3PjS1PI0E-23" value="+ Livro(String nome, double preco, int codigo, int quantidade, String marca)&lt;br&gt;+ setMarca(): void&lt;br&gt;+ getMarca(): String&lt;br&gt;+ toString(){..}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AnNTpFP7tSi3PjS1PI0E-20" vertex="1">
           <mxGeometry y="68" width="230" height="92" as="geometry" />
         </mxCell>
         <mxCell id="m3YTVxR1ayb_nRXrgsIL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="AnNTpFP7tSi3PjS1PI0E-33" edge="1">
